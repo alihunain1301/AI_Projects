@@ -1,0 +1,36 @@
+Name:
+1.Mohammad Usman
+2.Ubaid ur rehman
+
+
+Heart Disease
+coloums 14/ rows 303
+
+1:age: Age of the patient (integer).
+2:sex: Sex of the patient (1 = male; 0 = female).
+3:cp: Chest pain type (0–3 categorical values).
+4:trestbps: Resting blood pressure (in mm Hg).
+5:chol: Serum cholesterol (in mg/dl).
+6:fbs: Fasting blood sugar > 120 mg/dl (1 = true; 0 = false).
+7:restecg: Resting electrocardiographic results (0–2 categorical values).
+8:thalach: Maximum heart rate achieved.
+9:exang: Exercise-induced angina (1 = yes; 0 = no).
+10:oldpeak: ST depression induced by exercise relative to rest.
+11:slope: The slope of the peak exercise ST segment (0–2 categorical values).
+12:ca: Number of major vessels colored by fluoroscopy (integer, 0–4).
+13:thal: Thalassemia (categorical: 0–3).
+14:target: Heart disease diagnosis (1 = disease present, 0 = disease absent).
+..........Observation...........
+0:The dataset has no missing values.
+1:Columns contain both categorical and numerical data.
+2:Preprocessing steps should include encoding categorical data, scaling numerical data,
+and possibly handling outliers.
+********************************************
+performance record:
+
+knn:.............91%
+logistic:........88%
+naive bayes:.....87%
+SVM:.............86%
+random tree:.....84%
+decision tree:...75%
